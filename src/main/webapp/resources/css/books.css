@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-02-2019, 12:02:49 AM
+    Author     : melara
+*/
+
+*
+{
+    margin:0;
+    padding: 0;
+    border:0px;
+    color: #004;
+}
+
+body
+{
+    font-size: 12px;
+    text-align: left;
+    font-family: Verdana;
+    background-image: url(/TinyCalculator/resources/images/books1.png);
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    color:red;
+    padding:1em 0em 1em 0em;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+body > div
+{
+    width: 80em;
+    margin:0 auto;
+    text-align: left;
+}
+
+header, footer
+{
+    opacity: 0.75;
+    border-radius: 1em;
+    background-color: #004;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 1em white;
+}
+
+header
+{
+    margin:2em auto 1em auto;
+}
+
+footer
+{
+    margin:0.5em auto 1em auto;
+    color:white;
+}
+
+header > h1 
+{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    color:red;
+}
+
+main
+{
+    min-height: 40em;
+    width: 85%;
+    opacity: 0.95;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0.5em 0.5em 0.5em #004;
+}
+
+nav
+{
+    min-height: 40em;
+    position: fixed;
+    margin-left: 87%;
+    width: 10%;
+    padding: 1em;
+    top:7.5em;
+    opacity: 0.85;
+    border-radius: 1em;
+    background-color: #ccccd8;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em #004;
+}
+
+.button
+{
+    width: 10em;
+    border-radius: 0.5em;
+    background-color: #004;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.button:hover {
+    font-weight: bold;
+    color:red;
+}
