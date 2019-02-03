@@ -136,3 +136,13 @@ nav
     font-weight: bold;
     color:red;
 }
+
+p
+{
+    margin: 5px 0 5px 0;
+}
+
+p > a 
+{
+    color: blue;
+}
